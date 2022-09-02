@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+.about {
+    width: 100%;
+    padding: 78px 0px;
+    font-family: 'Poppins', sans-serif;
+    background: var(--white-color);
+}
+
+.about img {
+    height: 100%;
+    width: 45%;
+    border-radius: 20px;
+}
+
+.about-text {
+    color: var(--secondary-color);
+    width: 55%;
+}
+
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.about-text h1 {
+    color: var(--secondary-color);
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5 {
+    color: var(--secondary-color);
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+span {
+    color: var(--gray-color);
+}
+
+.about-text p {
+    color: var(--black-color);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+button {
+    background: var(--secondary-color);
+    color: white;
+    border: 2px solid transparent;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 8px 25px;
+    border-radius: 15px;
+    transition: .4s;
+}
+
+button:hover {
+    border: 4px solid pink;
+    cursor: pointer;
+}
+
+
+/* Services */
+
+.service {
+    padding-top: 20px;
+    color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service>h1 {
+    padding-top: 80px;
+    padding-bottom: 60px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.block {
+    padding-left: 50px;
+    padding-right: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--lightGray-color);
+    background: var(--primary-color);
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 250px;
+}
+
+.card>h1 {
+    padding-bottom: 10px;
+    font-size: 28px;
+    color: var(--black-color);
+}
+
+.card>p {
+    padding-bottom: 10px;
+    color: var(--black-color);
+}
+
+.icon-block {
+    padding: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.icon {
+    font-size: 80px;
+    color: var(--secondary-color);
+    border-radius: 50%;
+    border: 1px solid var(--lightGray-color);
+    padding: 5px;
+}
+
+
+
+@media screen and (max-width: 720px) {
+    .about {
+        width: 100%;
+        padding: 40px 0px;
+    }
+
+    .about img {
+        height: auto;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+    .about-text {
+        color: var(--secondary-color);
+        width: 100%;
+        padding: 5px;
+    }
+
+    .main {
+        width: 100%;
+        max-width: 95%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+
+    .about-text h1 {
+        color: var(--secondary-color);
+        font-size: 30px;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+    }
+
+    .about-text h5 {
+        color: var(--secondary-color);
+        font-size: 25px;
+        text-transform: capitalize;
+        margin-bottom: 25px;
+        letter-spacing: 2px;
+    }
+
+    span {
+        color: var(--gray-color);
+    }
+
+    .about-text p {
+        color: var(--black-color);
+        letter-spacing: 1px;
+        line-height: 28px;
+        font-size: 16px;
+        margin-bottom: 45px;
+        text-align: left;
+    }
+
+
+    button {
+        background: var(--secondary-color);
+        color: white;
+        border: 2px solid transparent;
+        font-weight: bold;
+        padding: 13px 20px;
+        border-radius: 20px;
+        transition: .4s;
+    }
+
+    button:hover {
+        border: 4px solid pink;
+        cursor: pointer;
+    }
+
+    /* Services */
+
+    .service {
+        padding-top: 20px;
+        color: var(--secondary-color);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service>h1 {
+        padding-top: 80px;
+        padding-bottom: 60px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .block {
+        padding-left: 20px;
+        padding-right: 20px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+}

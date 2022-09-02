@@ -1,0 +1,224 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+
+
+.celeb__con {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card__list {
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.celeblist__title{
+    text-align: center;
+}
+
+
+
+.snip1559 {
+    font-family: 'Lato', Arial, sans-serif;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 10px;
+    min-width: 250px;
+    max-width: 310px;
+    width: 100%;
+    background-color: var(--primary-color);
+    color: #2B2B2B;
+    text-align: center;
+    font-size: 16px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.snip1559 * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.snip1559 .profile-image {
+    padding: 15% 10% 0;
+}
+
+.snip1559 .profile-image img {
+    max-width: 100%;
+    vertical-align: top;
+    position: relative;
+    border-radius: 50%;
+    max-width: 40%;
+}
+
+.snip1559 figcaption {
+    padding: 5% 10% 15%;
+}
+
+.snip1559 h3 {
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 3px 0;
+}
+
+.snip1559 h5 {
+    font-weight: 400;
+    margin: 0;
+    text-transform: uppercase;
+    color: #888;
+    letter-spacing: 1px;
+}
+
+.snip1559 .icons {
+    color: #999;
+    display: flex;
+    margin-right: 5px;
+    font-size: 1.5em;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+.snip1559 .icons {
+    color: #555;
+}
+
+.snip1559 .icons i a {
+    text-decoration: none;
+}
+
+.icon__eye {
+    color: var(--secondary-color);
+}
+
+.icon__eye:hover {
+    font-size: 1.7rem;
+    color: var(--brown-color);
+}
+
+@media screen and (max-width: 1200px) {
+    .card__list1 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+@media screen and (max-width: 1050px) {
+    .card__list1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+
+}
+
+
+
+@media screen and (max-width: 850px) {
+
+    .celeb__con {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+
+    .card__list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    .snip1559 {
+        font-family: 'Lato', Arial, sans-serif;
+        position: relative;
+        display: inline-block;
+        overflow: hidden;
+        margin: 10px;
+        min-width: 80%;
+        width: 100%;
+        background-color: var(--primary-color);
+        color: #2B2B2B;
+        text-align: center;
+        font-size: 16px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    }
+
+
+    .snip1559 * {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .snip1559 .profile-image {
+        padding: 15% 10% 0;
+    }
+
+    .snip1559 .profile-image img {
+        max-width: 100%;
+        vertical-align: top;
+        position: relative;
+        border-radius: 50%;
+        max-width: 40%;
+    }
+
+    .snip1559 figcaption {
+        padding: 5% 5% 15%;
+    }
+
+    .snip1559 h3 {
+        font-family: 'Oswald';
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        margin: 3px 0;
+    }
+
+    .snip1559 h5 {
+        font-weight: 400;
+        margin: 0;
+        text-transform: uppercase;
+        color: #888;
+        letter-spacing: 1px;
+    }
+
+    .snip1559 .icons i {
+        color: #999;
+        display: inline-block;
+        margin-right: 5px;
+        font-size: 1.5em;
+    }
+
+    .snip1559 .icons i:hover {
+        color: #555;
+    }
+
+    .snip1559 .icons i a {
+        text-decoration: none;
+    }
+
+
+
+}
+
+@media screen and (max-width: 690px) {
+    .card__list {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}

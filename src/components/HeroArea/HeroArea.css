@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+.heroarea__container{
+ display: grid;
+ grid-template-columns: auto auto;
+ padding: 30px;
+ font-family: 'Poppins', sans-serif;
+
+ 
+}
+
+.heroarea__info{
+  padding-top: 70px;
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  
+}
+
+.heroarea__h1{
+  padding-bottom: 20px;
+}
+
+.heroarea__text{
+  text-align: left;
+}
+
+.heroarea__button{
+  display: flex;
+  align-items: flex-start;
+}
+
+.hero__button{
+  background-color: var(--secondary-color);
+  text-decoration: none;
+  padding: 12px 40px;
+  border-radius: 10px;
+  text-align: left;
+  color: var(--white-color);
+}
+
+
+
+.hero__image{
+  width: 100%;
+  height: 100%;
+  
+}
+
+@media screen and (min-width: 1441px) {}
+
+@media screen and (max-width: 1104px) {
+  .heroarea__h1{
+    padding-bottom: 20px;
+    font-size: 25px;
+  }
+  .heroarea__p{
+    font-size: 17px;
+  }
+}
+
+
+@media screen and (max-width: 900px) {
+  .heroarea__h1{
+    padding-bottom: 20px;
+    font-size: 19px;
+  }
+  .heroarea__p{
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width: 700px) {
+
+  .heroarea__container{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    align-items: center;
+   
+    
+   }
+   .heroarea__info{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+  }
+
+
+   .hero__image{
+    width: 70%;
+    height: 70%;
+    
+  }
+  
+  .heroarea__h1{
+    padding-bottom: 20px;
+    font-size: 16px;
+    text-align: center;
+  }
+  .heroarea__p{
+    font-size: 13px;
+  }
+
+  
+.heroarea__text{
+  text-align: center;
+}
+
+.heroarea__button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero__button{
+  background-color: var(--secondary-color);
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 10px;
+  text-align: center;
+  color: var(--white-color);
+}
+}

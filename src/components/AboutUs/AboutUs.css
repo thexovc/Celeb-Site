@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+.aboutus__container{
+ display: grid;
+ grid-template-columns: auto auto;
+ padding: 30px;
+ font-family: 'Poppins', sans-serif;
+
+ 
+}
+
+.aboutus__info{
+  padding-top: 70px;
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  
+}
+
+.aboutus__h1{
+  padding-bottom: 20px;
+}
+
+
+.aboutus__h3{
+  color: var(--secondary-color);
+}
+.aboutus__text{
+  text-align: left;
+}
+
+.aboutus__button{
+  display: flex;
+  align-items: flex-start;
+}
+
+.about__button{
+  background-color: var(--secondary-color);
+  text-decoration: none;
+  padding: 12px 40px;
+  border-radius: 10px;
+  text-align: left;
+  color: var(--white-color);
+}
+
+
+
+.about__image{
+  width: 85%;
+  height: 85%;
+  
+}
+
+@media screen and (min-width: 1441px) {}
+
+@media screen and (max-width: 1104px) {
+  .aboutus__h1{
+    padding-bottom: 20px;
+    font-size: 25px;
+  }
+  .aboutus__p{
+    font-size: 17px;
+  }
+}
+
+
+@media screen and (max-width: 900px) {
+  .aboutus__h1{
+    padding-bottom: 20px;
+    font-size: 19px;
+  }
+  .aboutus__p{
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width: 700px) {
+
+  .aboutus__container{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    align-items: center;
+   
+    
+   }
+   .aboutus__info{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+  }
+
+
+   .about__image{
+    width: 70%;
+    height: 70%;
+    
+  }
+  
+  .aboutus__h1{
+    padding-bottom: 20px;
+    font-size: 16px;
+    text-align: center;
+  }
+  .aboutus__p{
+    font-size: 13px;
+  }
+
+  
+.aboutus__text{
+  text-align: center;
+}
+
+.aboutus__button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about__button{
+  background-color: var(--secondary-color);
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 10px;
+  text-align: center;
+  color: var(--white-color);
+}
+}
